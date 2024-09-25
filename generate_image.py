@@ -24,7 +24,7 @@ def generate_image(prompt):
     image_data = requests.get(image_url).content
 
     # Ensure the directory exists
-    output_dir = "scripts_schnell"
+    output_dir = "kids_books"
     os.makedirs(output_dir, exist_ok=True)
 
     output_file = os.path.join(output_dir, "output_image.png")
