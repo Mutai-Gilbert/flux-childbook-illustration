@@ -1,6 +1,6 @@
-import replicate
 import os
-import requests  # Add this import for fetching the image
+import requests
+import replicate
 
 # Load the environment variables from the .env file
 load_dotenv()
